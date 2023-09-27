@@ -1,0 +1,13 @@
+argo-code/
+|-- src/
+|   |-- components/
+|   |   |-- CourseCatalog.js
+|   |   |-- InteractiveLesson.js
+|   |   |-- PersonalizedLearning.js
+|   |   |-- LiveClasses.js
+|   |   |-- ProgressTracking.js
+|   |   |-- TeacherDashboard.js
+|   |-- App.js
+|   |-- index.js
+|-- package.json
+|-- README.md

@@ -1,8 +1,8 @@
 import "./App.css";
-import { auth } from "./fire/firebase";
-import { RoutersPage } from "./pages/RoutersPage";
+import { auth } from "./firebase";
+import { Routes } from "./pages/Routes";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { Loader } from "./Components/common/Loader";
+import { Loader } from "./components/common/Loader";
 import { Dashboard } from "./pages/Dashboard";
 import { BrowserRouter } from "react-router-dom";
 
@@ -13,14 +13,9 @@ function App() {
       <BrowserRouter>
         {(() => {
           if (loading) return <Loader />;
-
           if (error) return error;
-
-          if (user) {
-            return <Dashboard user={user} />;
-          }
-
-          return <RoutersPage />;
+          if (user) return <Dashboard user={user} />;
+          return <Routes />;
         })()}
       </BrowserRouter>
     </div>

@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Login } from "./Login";
 import { Home } from "./Home";
 
-export const RoutersPage = () => {
+export const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>

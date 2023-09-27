@@ -1,6 +1,6 @@
-import { Svg } from '../../Components/images/Svg';
+import { Svg } from '../../components/images/Svg';
 import { useState, useRef, useEffect } from 'react';
-import { OauthButton } from '../../Components/buttons/OauthButton';
+import { OauthButton } from '../../components/buttons/OauthButton';
 
 export const Feature = ({ img, heading, title, subtitle, rev, oAuth }) => {
 	const classes = [];

@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Varela+Round&display=swap');
 body {
 	font-size: 1.125rem;
-	color: #373737;
+	color: #c7c7c7;
 	font-family: "Nunito", sans-serif;
+	background-color: #000000;
 }
 
 .w-s {
@@ -84,7 +85,7 @@ body {
 }
 
 .b-r {
-	border: 2px solid #e0e0e0;
+	border: 2px solid #1f1f1f;
 	border-radius: 2rem;
 }
 
@@ -100,10 +101,10 @@ body {
 
 .btn:hover {
 	transform: translate(0,-5px);
-	box-shadow: 0 5px 1px #b1b1b1;
+	box-shadow: 0 5px 1px #4f4f4f;
 }
 
 .btn:active {
 	transform: translate(0,-2px);
-	box-shadow: 0 2px 1px #b1b1b1;
+	box-shadow: 0 2px 1px #4f4f4f;
 }

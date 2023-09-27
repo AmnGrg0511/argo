@@ -1,14 +1,14 @@
-import pair from '../assets/pair.svg';
-import startup from '../assets/startup.svg';
-import project from '../assets/project.svg';
-import practice from '../assets/practice.svg';
-import compete from '../assets/compete.svg';
-import google from '../assets/logos/google.svg';
-import github from '../assets/logos/github.svg';
-import facebook from '../assets/logos/facebook.svg';
-import stackOverflow from '../assets/logos/stack-overflow.svg';
-import linkedin from '../assets/logos/linkedin.svg';
-import { Feature } from './Home/Feature';
+import pair from '../../assets/pair.svg';
+import startup from '../../assets/startup.svg';
+import project from '../../assets/project.svg';
+import practice from '../../assets/practice.svg';
+import compete from '../../assets/compete.svg';
+import google from '../../assets/logos/google.svg';
+import github from '../../assets/logos/github.svg';
+import facebook from '../../assets/logos/facebook.svg';
+import stackOverflow from '../../assets/logos/stackoverflow.svg';
+import linkedin from '../../assets/logos/linkedin.svg';
+import { Feature } from './Feature';
 
 const features = [
 	{
